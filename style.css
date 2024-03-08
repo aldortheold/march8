@@ -1,0 +1,50 @@
+body {
+    background-image: url("img/bg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.title {
+    width: 100vw; /* sorry Kevin */
+    background-color: rgba(0, 0, 0, 0.4);
+    box-shadow: black 0 0 30px;
+}
+
+.title p {
+    color: rgb(233, 252, 254);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 2rem;
+    text-shadow: black 1px 1px 3px;
+}
+
+.container {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    outline: rgb(233, 252, 254) 5px solid;
+}
+
+.container img {
+    width: 100%;
+    height: 100%;
+}
+
+.c img {
+    width: 6rem;
+    margin-bottom: 1rem;
+}
+
+.march p {
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    margin-top: 1.5rem;
+    color: rgb(233, 252, 254);
+    font-weight: bold;
+    font-style: italic;
+    font-size: 4rem;
+    text-shadow: black 1px 1px 3px;
+}
